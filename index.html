@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<style>
+    .font-sora{
+        font-family: 'Sora', sans-serif;
+    }
+    .font-adlam{
+        font-family: 'ADLaM Display', sans-serif;}
+     
+    
+
+</style>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/0c8c0e1b65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="font-sora ">
+        <nav class="bg-[#FFF9F4] p-4 flex justify-between items-center ">
+            <div class="flex items-center space-x-2">
+                <span class="text-black-500  font-bold flex items-center"> 
+                    <span class="text-2xl"><img class="mr-2" src="./c1-assets/logo-header.png" alt=""></span>Browse <span class="text-yellow-400"> 4 </span> Pets
+                </span>
+            </div>
+
+            
+            <div class="hidden md:flex space-x-6 text-black font-medium">
+                <a href="" >Find a pet</a>
+                <a href="" >Breeds</a>
+                <a href="" >Contact us</a>
+            </div>
+            <div class="hidden sm:flex flex space-x-2">
+                <i class="fa-regular fa-bell mt-3 gap-2"></i>
+                <i class="fa-solid fa-magnifying-glass gap-2 mt-3"></i>
+                <button class="border-2 border-yellow-400 px-4 py-2 rounded-lg">Login</button>
+                <button class="bg-yellow-400 px-4 py-2 rounded-lg">Register</button>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-2xl">☰</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="p-6 text-center md:text-left md:flex items-center md:justify-between">
+            <div class="md:w-1/2 space-y-4">
+                <h1 class="text-4xl font-bold text-black">Pamper Your Pet, <br> Because They Deserve the Best</h1>
+                <p class="text-gray-700">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="bg-yellow-400 px-6 py-3 rounded-lg text-black font-semibold">Find a pet</button>
+            </div>
+            <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
+                <img src="./c1-assets/cat-big.png" alt="Pet Image" class="rounded-lg">
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
